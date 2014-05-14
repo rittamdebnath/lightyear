@@ -13,7 +13,8 @@
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/gumby.css">
+        <link rel="stylesheet" href="bower_components/gumby/css/gumby.css">
+        <link rel="stylesheet" href="bower_components/gumby-parallax/_parallax.css">
         <!-- endbuild -->
     </head>
     <body>
@@ -33,7 +34,7 @@
         <div class="row">
             <div class="eleven columns">
                 <h1>Light <span class="heatup">Year</span></h1><hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, molestiae dolor aspernatur harum tempore recusandae officia incidunt alias aliquam nobis perferendis quis ex provident earum adipisci odit possimus quae quidem.
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, molestiae dolor aspernatur harum tempore recusandae officia incidunt alias aliquam nobis perferendis quis ex provident earum adipisci odit possimus quae quidem.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias eligendi hic in vel cumque repellat debitis ad ab. Deserunt, nam, aperiam dolorum asperiores consequuntur accusamus sapiente nostrum impedit ad.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias eligendi hic in vel cumque repellat debitis ad ab. Deserunt, nam, aperiam dolorum asperiores consequuntur accusamus sapiente nostrum impedit ad.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias eligendi hic in vel cumque repellat debitis ad ab. Deserunt, nam, aperiam dolorum asperiores consequuntur accusamus sapiente nostrum impedit ad.</p>
@@ -65,9 +66,22 @@
                          <div class="row">
                              <div class="eleven">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, laboriosam, totam, repellendus fugit similique distinctio iure delectus unde facilis aspernatur sapiente magni accusantium facere nam modi officia quis enim ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, accusamus, vitae, nobis, voluptates beatae fuga asperiores similique error ullam a ipsum eos id debitis repellendus dolore alias soluta repudiandae quasi!</p>
-                             </div><hr>
+                             </div>
+                             <div class="eight columns centered">
+                                 <div class="example-grida">
+
+                                    <div class="parallax" gumby-parallax="0.5">
+                                    </div>
+                                 </div>
+
+                            </div>
+
+
+
+                             <hr>
                              <h2 class="text-center">The End</h2>
                          </div>
+                         
                     
             </div>
         </div>
@@ -85,6 +99,15 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+          <script src="../bower_components/gumby/js/libs/gumby.js"></script>
+        <script src="../bower_components/gumby/js/libs/ui/gumby.skiplink.js"></script>
+        <script src="../bower_components/gumby/js/libs/ui/gumby.toggleswitch.js"></script>
+        <script src="../bower_components/gumby-parallax/gumby.parallax.js"></script>
+        <script src="../bower_components/gumby/js/libs/gumby.init.js"></script>
+        <script src="../bower_components/gumby/js/libs/gumby.min.js"></script>
+        <script src="../bower_components/gumby/js/plugins.js"></script>
+        <script src="../bower_components/gumby/js/main.js"></script>
+
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -99,7 +122,6 @@
         </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+              <!-- endbuild -->
 </body>
 </html>
