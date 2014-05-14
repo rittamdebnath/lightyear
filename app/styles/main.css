@@ -1,5 +1,6 @@
 p{
 	text-align: justify;
+
 }
 
 .row .lightup{
@@ -8,3 +9,13 @@ p{
 	margin: 0px;
 	box-shadow: 1px 2px 10px #000;
 }
+
+span.heatup{
+	color: #1BA4D7;
+}
+
+/*body{
+	background: linear-gradient(110deg, #5EC4E5 10%, #50D97A 90%) !important;
+
+}
+*/
