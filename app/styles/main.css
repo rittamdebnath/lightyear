@@ -1,3 +1,10 @@
 p{
 	text-align: justify;
 }
+
+.row .lightup{
+	padding: 4px;
+	background-color: none repeat scroll 0% 0% #fff;
+	margin: 0px;
+	box-shadow: 1px 2px 10px #000;
+}
